@@ -1,0 +1,1 @@
+docker run -d --hostname localhost -p 10080:80 -p 10443:443 --name gitlab --restart unless-stopped -v D:/GitLabServer/gitlab/etc:/etc/gitlab -v D:/GitLabServer/gitlab/log:/var/log/gitlab -v D:/GitLabServer/gitlab/data:/var/data/gitlab gitlab/gitlab-ce:latest
