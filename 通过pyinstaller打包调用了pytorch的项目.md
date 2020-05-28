@@ -11,3 +11,8 @@
 3. pyi_rth_pkgres报错
 
    安装最新版的pyinstaller可以解决
+   
+   尝试重装pyinstaller
+   pip uninstall pyinstaller
+   pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip
+

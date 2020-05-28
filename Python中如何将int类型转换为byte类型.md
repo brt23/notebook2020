@@ -6,7 +6,7 @@
    int_data = 10
    # 一般int32型数据在其他语言中占4个字节，所以一般转换为4字节bytes
    # byteorder是大小码，而一般pc使用的是小码
-   byte_data = (10).to_bytes(4, byteorder='little')
+   byte_data = 10.to_bytes(4, byteorder='little')
    ```
 
 2. 如何将byte数据转换为整型数据
